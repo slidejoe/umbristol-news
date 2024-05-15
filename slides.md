@@ -39,7 +39,7 @@ class: text-right
   }
 
   ul {
-    list-style: none;
+    list-style: none!important;
   }
   
 </style>
@@ -210,9 +210,9 @@ Pizza to eat, drinks to drink and a place to do it all!
 <img src="/images/cps/simon.jfif" alt="Simon" class="person" />
 <img src="/images/cps/jack.jpg" alt="Jack" class="person"/>
 
-Simon
+**Simon**
 
-Jack
+**Jack**
 
 ---
 layout: items
