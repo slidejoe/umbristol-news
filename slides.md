@@ -138,7 +138,8 @@ Don't just watch the news, *be* the news!
 - 🤫 **The Secret Stage 2024**
   
   [thesecretstage.vip](https://thesecretstage.vip/)
-  </v-clicks>
+
+</v-clicks>
 
 ---
 layout: section
@@ -156,17 +157,20 @@ May
   Tomorrow &middot; Online
 
   [meetup.com/umbraco-virtual](https://www.meetup.com/umbraco-virtual/events/299210604)
+
 - ⭕ **Umbraco London Shuffle Social**
   
   22 May &middot; London
 
   [meetup.com/the-london-umbraco-meetup](https://www.meetup.com/the-london-umbraco-meetup/events/300930964)
+  
 - 🐲 **UmbraCymru Show & Tell**
   
   29 May &middot; Online
-
+  
   [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562607)
-  </v-clicks>
+
+</v-clicks>
 
 ---
 layout: section
@@ -194,7 +198,8 @@ June & July
   10 July &middot; Bristol
 
   [meetup.com/umbristol](https://www.meetup.com/umbristol/)
-  </v-clicks>
+
+</v-clicks>
 
 ---
 layout: items
