@@ -56,6 +56,24 @@ The last comment block of each slide will be treated as slide notes. It will be 
 layout: section
 ---
 
+# umBristol
+
+May 2024
+
+::right::
+
+## Wifi
+
+**SSID:** DeskLodge 3rd Floor
+
+**Password:** `***REMOVED***`
+
+<qrcode-vue :value="'WIFI:S:DeskLodge 3rd Floor;T:WPA;P:***REMOVED***;;'" :size="200" :level="'L'" :render-as="'svg'"></qrcode-vue>
+
+---
+layout: section
+---
+
 # Emergency Exits
 
 Don't panic!
