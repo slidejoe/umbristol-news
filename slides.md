@@ -41,7 +41,7 @@ class: text-right
   ul {
     list-style: none!important;
   }
-  
+
 </style>
 
 # umBristol
@@ -76,13 +76,13 @@ layout: section
 
 Connect digitally as well as socially
 
-**SSID:** ???
+**SSID:** DeskLodge 3rd Floor
 
 **Password:** `***REMOVED***`
 
 ::right::
 
-<qrcode-vue :value="'WIFI:S:???;T:WPA;P:***REMOVED***;;'" :size="200" :level="'L'" :render-as="'svg'"></qrcode-vue>
+<qrcode-vue :value="'WIFI:S:DeskLodge 3rd Floor;T:WPA;P:***REMOVED***;;'" :size="200" :level="'L'" :render-as="'svg'"></qrcode-vue>
 
 ---
 layout: intro
@@ -109,6 +109,7 @@ HQ have been busy
   
   Umbraco 14 is scheduled for release on 30 May! 😱
   
+
 </v-clicks>
 
 ---
@@ -137,7 +138,7 @@ Don't just watch the news, *be* the news!
 - 🤫 **The Secret Stage 2024**
   
   [thesecretstage.vip](https://thesecretstage.vip/)
-</v-clicks>
+  </v-clicks>
 
 ---
 layout: section
@@ -165,7 +166,7 @@ May
   29 May &middot; Online
 
   [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562607)
-</v-clicks>
+  </v-clicks>
 
 ---
 layout: section
@@ -193,7 +194,7 @@ June & July
   10 July &middot; Bristol
 
   [meetup.com/umbristol](https://www.meetup.com/umbristol/)
-</v-clicks>
+  </v-clicks>
 
 ---
 layout: items
