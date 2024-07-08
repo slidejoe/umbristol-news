@@ -1,5 +1,6 @@
 <script setup>
-defineProps(['img', 'name', 'caption'])      
+defineProps(['img', 'name', 'caption'])
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, "");
 </script>
 
 <style scoped>
@@ -23,7 +24,7 @@ p {
 
 <template>
   <div>
-    <img :src="img" :alt="name" class="person" />
+    <img :src="baseUrl + img" :alt="name" class="person" />
     <h2>{{ name }}</h2>
     <p v-if="caption">{{ caption }}</p>
   </div>
