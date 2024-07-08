@@ -32,12 +32,6 @@ class: text-right
     margin: auto;
   }
 
-  img.person {
-    max-width: 160px;
-    margin: auto;
-    border-radius: 50%;
-  }
-
   ul {
     list-style: none!important;
   }
@@ -46,7 +40,7 @@ class: text-right
 
 # umBristol
 
-May 2024
+July 2024
 
 <br />
 <br />
@@ -101,14 +95,16 @@ HQ have been busy
 
 ::right::
 
+<!-- https://our.umbraco.com/download/releases -->
+
 <v-clicks>
 
-- 🚀 **Umbraco 14 RC 3**
-  
-  The 3rd release candiate for v14 was released
 - 🚀 **Umbraco 14 release**
   
-  Umbraco 14 is scheduled for release on 30 May! 😱
+  Umbraco 14 was released on 30 May! 😱
+- 🚀 **Umbraco 13.4**
+  
+  Performance enhancements, bugfixes etc
   
 
 </v-clicks>
@@ -127,18 +123,41 @@ Don't just watch the news, *be* the news!
 
 - 🎪 **Umbraco US Festival CFP**
   
-  Want to speak at US Festival?
+  Want to speak at US Festival? Closes *15 July*!
   [sessionize.com/umbraco-us-festival](https://sessionize.com/umbraco-us-festival/)
-- 🎧 **Candid Contributions**
-  
-  *"Toots, Tweets and Time Management"*
-- 💼 **Codegarden megathread on Discord**
-  
-  [discord-chats.umbraco.com/t/18809569/cg](https://discord-chats.umbraco.com/t/18809569/cg)
+- 📦 **Various packages updated with v14 support**
 
-- 🤫 **The Secret Stage 2024**
+  Check your favourite packages
+- 📦 **BegeWrite**
+
+  EditorJS editor for Umbraco
+- 🎧 **Candid Contribuitons Podcast**
+
+  Live from Codegarden 2024! *Wherever you get your podcasts.*
+</v-clicks>
+
+---
+layout: section
+---
+
+# Upcoming events
+July
+
+::right::
+
+<v-clicks>
+
+- 🦉 **Umbraco Leeds - Virtual**
   
-  [thesecretstage.vip](https://thesecretstage.vip/)
+  Thursday &middot; Online
+
+  [meetup.com/umbleeds](https://www.meetup.com/umbleeds/events/301981551)
+
+- 🐲 **UmbraCymru - Virtual**
+  
+  31 July &middot; Online
+  
+  [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562637)
 
 </v-clicks>
 
@@ -147,56 +166,20 @@ layout: section
 ---
 
 # Upcoming events
-May
+August
 
 ::right::
 
 <v-clicks>
 
-- 💙 **UMBRAAD**
+- 🐲 **UmbraCymru Talks - August**
   
-  Tomorrow &middot; Online
-
-  [meetup.com/umbraco-virtual](https://www.meetup.com/umbraco-virtual/events/299210604)
-
-- ⭕ **Umbraco London Shuffle Social**
-  
-  22 May &middot; London
-
-  [meetup.com/the-london-umbraco-meetup](https://www.meetup.com/the-london-umbraco-meetup/events/300930964)
-  
-- 🐲 **UmbraCymru Show & Tell**
-  
-  29 May &middot; Online
-  
-  [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562607)
-
-</v-clicks>
-
----
-layout: section
----
-
-# Upcoming events
-June & July
-
-::right::
-
-<v-clicks>
-
-- 🌷 **Codegarden**
-  
-  12-17 June &middot; Odense, DK
-
-  [codegarden.umbraco.com](https://codegarden.umbraco.com/)
-- 🐲 **UmbraCymru Talks - June**
-  
-  27 June &middot; Cardiff
+  29 August &middot; Cardiff
 
   [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562625)
-- 🦄 **umBristol Talks - July**
+- 🦄 **umBristol Social - August**
   
-  10 July &middot; Bristol
+  TBC &middot; Bristol
 
   [meetup.com/umbristol](https://www.meetup.com/umbristol/)
 
@@ -210,20 +193,18 @@ cols: 2
 # Sponsored by
 Pizza to eat, drinks to drink and a place to do it all!
 
-<img src="/images/cps/logo.png" alt="CPS Logo" class="logo" />
+<!-- <img src="/images/true/logo.png" alt="True Logo" class="logo" /> -->
+
+## True Digital
 
 ::items::
 
-<img src="/images/cps/simon.jfif" alt="Simon" class="person" />
-<img src="/images/cps/jack.jpg" alt="Jack" class="person"/>
-
-**Simon**
-
-**Jack**
+<person img="/images/true/rich.png" name="Rich McCloskey" />
+<person img="/images/true/matt.jpg" name="Matt Sutherland" />
 
 ---
 layout: items
-cols: 2
+cols: 3
 ---
 
 # Let's go!
@@ -231,11 +212,6 @@ Handing over to these lovely people&hellip;
 
 ::items::
 
-<img src="/images/gibe/matt-begent.jpg" alt="Matt Begent" class="person" />
-<img src="/images/true/matt.jpg" alt="Matt Sutherland" class="person" />
-
-**Matt Begent**<br />
-Calling An Accessibility Overlay Accessible Does Not Make it Accessible
-
-**Matt Sutherland**<br />
-Navigating the web through colour-blind eyes: It's not all black and white
+<person img="/images/true/sean.jpg" name="Sean Thorne" caption="Codegarden recap" />
+<person img="/images/true/george.jpg" name="Georgina Bidder" caption="The Bittersweet Reality of Diabetes Tech" />
+<person img="/images/true/matt.jpg" name="Matt Sutherland" caption="Fighting ghosts and monsters" />
