@@ -1,10 +1,15 @@
 <script setup>
 defineProps(['mode', 'size'])
 
-const ssid = 'DeskLodge 3rd Floor',
-      type = 'WPA',
-      pass = '***REMOVED***';
-      
+const ssid = '',
+      type = '',
+      pass = '';
+
+// //Desklodge
+// const ssid = 'DeskLodge 3rd Floor',
+//       type = 'WPA',
+//       pass = '***REMOVED***';
+
 </script>
 
 <style scoped>
@@ -39,7 +44,7 @@ dd {
 </style>
 
 <template>
-  <div :class="size < 200 ? 'compact' : ''">
+  <div :class="size < 200 ? 'compact' : ''" v-if="ssid && type && pass">
     <qrcode-vue v-if="mode != 'text'" :value="'WIFI:S:{{ ssid }};T:{{ type }};P:{{ pass }};;'" :size="size ?? 200"
       :level="'L'" :render-as="'svg'"></qrcode-vue>
 
