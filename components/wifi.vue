@@ -10,6 +10,7 @@ const ssid = '',
 //       type = 'WPA',
 //       pass = '***REMOVED***';
 
+const qrCodeValue = `WIFI:S:${ ssid };T:${ type };P:${ pass };;`;
 </script>
 
 <style scoped>
@@ -45,8 +46,8 @@ dd {
 
 <template>
   <div :class="size < 200 ? 'compact' : ''" v-if="ssid && type && pass">
-    <qrcode-vue v-if="mode != 'text'" :value="'WIFI:S:{{ ssid }};T:{{ type }};P:{{ pass }};;'" :size="size ?? 200"
-      :level="'L'" :render-as="'svg'"></qrcode-vue>
+    <qrcode-vue v-if="mode != 'text'" :value="qrCodeValue" :size="size ?? 200"
+      level="L" render-as="svg"></qrcode-vue>
 
     <dl v-if="mode != 'qr'">
       <div>
