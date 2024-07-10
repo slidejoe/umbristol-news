@@ -64,9 +64,10 @@ layout: section
 
 When you gotta go, you gotta go.
 
----
+<!---
 layout: section
----
+-->
+<!---
 
 # Wifi
 
@@ -78,6 +79,7 @@ Connect digitally as well as socially
 
 <wifi mode="qr" />
 
+-->
 
 ---
 layout: intro
@@ -121,18 +123,17 @@ Don't just watch the news, *be* the news!
 
 <v-clicks>
 
-- 🎪 **Umbraco US Festival CFP**
-  
-  Want to speak at US Festival? Closes *15 July*!
+- 🎪 **Umbraco US Festival CFP**<br />
+  Want to speak at US Festival? Closes *15 July*!<br />
   [sessionize.com/umbraco-us-festival](https://sessionize.com/umbraco-us-festival/)
-- 📦 **Various packages updated with v14 support**
-
+- 🛖 **CODECABIN**<br />
+  Applications close *tomorrow!*<br />
+  [codecab.in](https://codecab.in)
+- 📦 **Various packages updated with v14 support**<br />
   Check your favourite packages
-- 📦 **BegeWrite**
-
+- 📦 **BegeWrite**<br />
   EditorJS editor for Umbraco
-- 🎧 **Candid Contribuitons Podcast**
-
+- 🎧 **Candid Contribuitons Podcast**<br />
   Live from Codegarden 2024! *Wherever you get your podcasts.*
 </v-clicks>
 
@@ -147,42 +148,14 @@ July
 
 <v-clicks>
 
-- 🦉 **Umbraco Leeds - Virtual**
-  
-  Thursday &middot; Online
-
+- 🦉 **Umbraco Leeds** &middot; Thursday &middot; Online
   [meetup.com/umbleeds](https://www.meetup.com/umbleeds/events/301981551)
-
-- 🐲 **UmbraCymru - Virtual**
-  
-  31 July &middot; Online
-  
+- 🐲 **UmbraCymru** &middot; 31 July &middot; Online
   [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562637)
-
-</v-clicks>
-
----
-layout: section
----
-
-# Upcoming events
-August
-
-::right::
-
-<v-clicks>
-
-- 🐲 **UmbraCymru Talks - August**
-  
-  29 August &middot; Cardiff
-
-  [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562625)
-- 🦄 **umBristol Social - August**
-  
-  TBC &middot; Bristol
-
+- 🦄 **umBristol Social** &middot; TBC August &middot; Bristol
   [meetup.com/umbristol](https://www.meetup.com/umbristol/)
-
+- 🐲 **UmbraCymru Talks** &middot; 29 August &middot; Cardiff
+  [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562625)
 </v-clicks>
 
 ---
