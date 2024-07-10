@@ -1,14 +1,21 @@
 <script setup>
 defineProps(['mode', 'size'])
 
-const ssid = '',
-      type = '',
-      pass = '';
+// Get details from https://www.wigle.net/
+// Remember to add a secret to Github (https://github.com/slidejoe/umbristol-news/settings/secrets/actions/new) and update ./deploy.yml
+// const ssid = '',
+//       type = '',
+//       pass = import.meta.env.VITE_WIFI_XXX;
+
+// True
+const ssid = 'TDEXTERNAL',
+      type = 'WPA',
+      pass = import.meta.env.VITE_WIFI_TRUE;
 
 // //Desklodge
 // const ssid = 'DeskLodge 3rd Floor',
 //       type = 'WPA',
-//       pass = '***REMOVED***';
+//       pass = import.meta.env.VITE_WIFI_DESKLODGE;
 
 const qrCodeValue = `WIFI:S:${ ssid };T:${ type };P:${ pass };;`;
 </script>

@@ -64,10 +64,10 @@ layout: section
 
 When you gotta go, you gotta go.
 
-<!---
+---
 layout: section
--->
-<!---
+
+---
 
 # Wifi
 
@@ -79,7 +79,6 @@ Connect digitally as well as socially
 
 <wifi mode="qr" />
 
--->
 
 ---
 layout: intro
