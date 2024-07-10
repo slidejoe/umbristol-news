@@ -52,7 +52,7 @@ dd {
 </style>
 
 <template>
-  <div :class="size < 200 ? 'compact' : ''" v-if="ssid && type && pass">
+  <div :class="size < 200 ? 'compact' : ''" v-if="ssid && type">
     <qrcode-vue v-if="mode != 'text'" :value="qrCodeValue" :size="size ?? 200"
       level="L" render-as="svg"></qrcode-vue>
 
