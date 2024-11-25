@@ -36,11 +36,19 @@ class: text-right
     list-style: none!important;
   }
 
+  .slidev-layout li {
+    line-height: inherit;
+    padding-bottom: 0.8em;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
 </style>
 
 # umBristol
 
-July 2024
+November 2024
 
 <br />
 <br />
@@ -100,15 +108,39 @@ HQ have been busy
 
 <v-clicks>
 
-- 🚀 **Umbraco 14 release**
+- 🚀 **Umbraco 15 release**
   
-  Umbraco 14 was released on 30 May! 😱
-- 🚀 **Umbraco 13.4**
-  
-  Performance enhancements, bugfixes etc
-  
+  Umbraco 15 was released on 14 November! 😱
+- 👁️ **Umbraco Engage released**
+  The new name for uMarketingSuite, bought by HQ
+  https://umbraco.com/blog/introducing-umbraco-engage/
 
 </v-clicks>
+
+---
+layout: section
+---
+
+# CFPs
+
+Apply to talk/appear at these events
+
+::right::
+
+<v-clicks>
+
+- ✨ **Umbraco Spark**
+  Want to speak at Umbraco Spark? Closes *31 January*!
+  https://sessionize.com/umbraco-spark-2025/
+- 🎪 **Codegarden**
+  Want to speak at Codegarden? Closes *14 February*!
+  https://sessionize.com/codegarden-week-2025/
+- 🛖 **CODECABIN 2025**
+  Mid-week this time. Applications are open.
+  https://CodeCab.in
+
+</v-clicks>
+
 
 ---
 layout: section
@@ -120,20 +152,20 @@ Don't just watch the news, *be* the news!
 
 ::right::
 
+<!-- https://umb.fyi/firehose/news -->
+
 <v-clicks>
 
-- 🎪 **Umbraco US Festival CFP**<br />
-  Want to speak at US Festival? Closes *15 July*!<br />
-  [sessionize.com/umbraco-us-festival](https://sessionize.com/umbraco-us-festival/)
-- 🛖 **CODECABIN**<br />
-  Applications close *tomorrow!*<br />
-  [codecab.in](https://codecab.in)
-- 📦 **Various packages updated with v14 support**<br />
-  Check your favourite packages
-- 📦 **BegeWrite**<br />
-  EditorJS editor for Umbraco
-- 🎧 **Candid Contribuitons Podcast**<br />
-  Live from Codegarden 2024! *Wherever you get your podcasts.*
+- 🧑‍🎄 **Umbraco Secret Santa**
+  Exchange gifts with a random community member!
+  https://UmbracoSecretSanta.com
+- 🦋 **BlueSky Umbraco starter kit**
+  Who to follow on BlueSky? Dean's got your back...
+  http://notacu.lt/bsky-starter
+- 📺 **Codegarden videos released**
+  https://www.youtube.com/@UmbracoHQ
+- 🎧 **Candid Contribuitons Podcast**
+  Hackathons, Codecabin, a 5 year anniversary... *Wherever you get your podcasts.*
 </v-clicks>
 
 ---
@@ -141,20 +173,25 @@ layout: section
 ---
 
 # Upcoming events
-July
+November and beyond
 
 ::right::
 
+<!-- https://umbracalendar.com/ -->
+
 <v-clicks>
 
-- 🦉 **Umbraco Leeds** &middot; Thursday &middot; Online
-  [meetup.com/umbleeds](https://www.meetup.com/umbleeds/events/301981551)
-- 🐲 **UmbraCymru** &middot; 31 July &middot; Online
-  [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562637)
-- 🦄 **umBristol Social** &middot; TBC August &middot; Bristol
-  [meetup.com/umbristol](https://www.meetup.com/umbristol/)
-- 🐲 **UmbraCymru Talks** &middot; 29 August &middot; Cardiff
-  [meetup.com/umbracymru](https://www.meetup.com/umbracymru/events/298562625)
+- 🐲 **UmbraCymru** &middot; Wednesday Lunchtime &middot; Online
+  https://www.meetup.com/umbracymru/events/298562669
+- 🚇 **Umbraco London Pub Quiz** &middot; 5 December &middot; London
+  https://www.meetup.com/the-london-umbraco-meetup/events/304109015
+- 🤖 **.NET SW &times; umBristol xmas** &middot; 10 December &middot; Bristol
+  https://www.meetup.com/dotnetsouthwest/events/304287701/
+- 🎄 **Umbraco Virtual Xmas** &middot; 11 December &middot; Online
+  https://www.meetup.com/umbraco-virtual/events/304650892
+- ✨ **Umbraco Spark** &middot; 7 March 2025 &middot; Bristol
+  Early bird tickets available
+  https://umbracospark.com/
 </v-clicks>
 
 ---
@@ -165,8 +202,6 @@ cols: 2
 # Sponsored by
 Pizza to eat, drinks to drink and a place to do it all!
 
-<!-- <img src="/images/true/logo.png" alt="True Logo" class="logo" /> -->
-
 ## True Digital
 
 ::items::
@@ -176,7 +211,7 @@ Pizza to eat, drinks to drink and a place to do it all!
 
 ---
 layout: items
-cols: 3
+cols: 2
 ---
 
 # Let's go!
@@ -184,6 +219,5 @@ Handing over to these lovely people&hellip;
 
 ::items::
 
-<person img="/images/true/sean.jpg" name="Sean Thorne" caption="Codegarden recap" />
-<person img="/images/true/george.jpg" name="Georgina Bidder" caption="The Bittersweet Reality of Diabetes Tech" />
-<person img="/images/true/matt.jpg" name="Matt Sutherland" caption="Fighting ghosts and monsters" />
+<person img="/images/gibe/matt-begent.jpg" name="Matt Begent" caption="SkrivLet" />
+<person img="/images/method4/owain.png" name="Owain Jones" caption="How to Make Umbraco Truly Friendly!" />
