@@ -183,6 +183,8 @@ November and beyond
 
 - 🐲 **UmbraCymru** &middot; Wednesday Lunchtime &middot; Online
   https://www.meetup.com/umbracymru/events/298562669
+- 🤖 **.NET South West** &middot; Thursday &middot; Bristol
+  https://www.meetup.com/dotnetsouthwest/events/304267017/
 - 🚇 **Umbraco London Pub Quiz** &middot; 5 December &middot; London
   https://www.meetup.com/the-london-umbraco-meetup/events/304109015
 - 🤖 **.NET SW &times; umBristol xmas** &middot; 10 December &middot; Bristol
