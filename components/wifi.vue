@@ -7,10 +7,15 @@ defineProps(['mode', 'size'])
 //       type = '',
 //       pass = import.meta.env.VITE_WIFI_XXX;
 
-// True
-const ssid = 'TDEXTERNAL',
+// // True
+// const ssid = 'TDEXTERNAL',
+//       type = 'WPA',
+//       pass = import.meta.env.VITE_WIFI_TRUE;
+
+// Gibe's umBristol wifi
+const ssid = 'umBristol',
       type = 'WPA',
-      pass = import.meta.env.VITE_WIFI_TRUE;
+      pass = import.meta.env.VITE_WIFI_GIBE;
 
 // //Desklodge
 // const ssid = 'DeskLodge 3rd Floor',

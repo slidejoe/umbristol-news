@@ -48,7 +48,7 @@ class: text-right
 
 # umBristol
 
-November 2024
+dotNetConf, January 2025
 
 <br />
 <br />
@@ -108,13 +108,9 @@ HQ have been busy
 
 <v-clicks>
 
-- 🚀 **Umbraco 15 release**
+- 🚀 **Umbraco 15.1.1 release**
   
-  Umbraco 15 was released on 14 November! 😱
-- 👁️ **Umbraco Engage released**
-  The new name for uMarketingSuite, bought by HQ
-  https://umbraco.com/blog/introducing-umbraco-engage/
-
+  Cleanup, UFM improvements, TipTap improvements, Bugfixes
 </v-clicks>
 
 ---
@@ -156,16 +152,17 @@ Don't just watch the news, *be* the news!
 
 <v-clicks>
 
-- 🧑‍🎄 **Umbraco Secret Santa**
-  Exchange gifts with a random community member!
-  https://UmbracoSecretSanta.com
-- 🦋 **BlueSky Umbraco starter kit**
-  Who to follow on BlueSky? Dean's got your back...
-  http://notacu.lt/bsky-starter
-- 📺 **Codegarden videos released**
-  https://www.youtube.com/@UmbracoHQ
-- 🎧 **Candid Contribuitons Podcast**
-  Hackathons, Codecabin, a 5 year anniversary... *Wherever you get your podcasts.*
+- 📅 **24 Days in Umbraco**
+  Fantastic collection of articles from across the community
+  https://24days.in/umbraco-cms
+- 🦋 **BlueSky for Umbraco Developers**
+  A guide to BlueSky from Matt Brailsford
+  https://mattbrailsford.dev/getting-started-on-bluesky-for-umbraco-developers
+- 😊 **Contentment v5.1**
+  https://github.com/leekelleher/umbraco-contentment
+- ☕ **umbraCoffee - November 24**
+  Umbraco v15, Festivals Summary, EOTY...?
+  https://youtube.com/@umbraCoffee
 </v-clicks>
 
 ---
@@ -181,19 +178,14 @@ November and beyond
 
 <v-clicks>
 
-- 🐲 **UmbraCymru** &middot; Wednesday Lunchtime &middot; Online
-  https://www.meetup.com/umbracymru/events/298562669
-- 🤖 **.NET South West** &middot; Thursday &middot; Bristol
-  https://www.meetup.com/dotnetsouthwest/events/304267017/
-- 🚇 **Umbraco London Pub Quiz** &middot; 5 December &middot; London
-  https://www.meetup.com/the-london-umbraco-meetup/events/304109015
-- 🤖 **.NET SW &times; umBristol xmas** &middot; 10 December &middot; Bristol
-  https://www.meetup.com/dotnetsouthwest/events/304287701/
-- 🎄 **Umbraco Virtual Xmas** &middot; 11 December &middot; Online
-  https://www.meetup.com/umbraco-virtual/events/304650892
-- ✨ **Umbraco Spark** &middot; 7 March 2025 &middot; Bristol
-  Early bird tickets available
+- 🐲 **Umbraco Winter Keynote** &middot; Thursday &middot; Online
+  https://umbra.co/SignUp-mastodon
+- ✨ **Umbraco Spark** &middot; 7 March &middot; Bristol
+  Tickets available (cheaper before February), Kevlin Henney announced as speaker
   https://umbracospark.com/
+- 🌷 **Codegarden** &middot; 18-20 June &middot; Odense, DK
+  Save the date! CFP open
+  https://codegarden.umbraco.com/
 </v-clicks>
 
 ---
@@ -204,12 +196,12 @@ cols: 2
 # Sponsored by
 Pizza to eat, drinks to drink and a place to do it all!
 
-## True Digital
+## Gibe Digital
 
 ::items::
 
-<person img="/images/true/rich.png" name="Rich McCloskey" />
-<person img="/images/true/matt.jpg" name="Matt Sutherland" />
+<person img="/images/gibe/pete.webp" name="Pete Williams" />
+<person img="/images/gibe/steve.webp" name="Steve Temple" />
 
 ---
 layout: items
@@ -221,5 +213,5 @@ Handing over to these lovely people&hellip;
 
 ::items::
 
-<person img="/images/gibe/matt-begent.jpg" name="Matt Begent" caption="SkrivLet" />
-<person img="/images/method4/owain.png" name="Owain Jones" caption="How to Make Umbraco Truly Friendly!" />
+<person img="/images/umbraco/lotte.jpg" name="Lotte Pitcher" caption="Releasing HybridCache into the Wild with Umbraco" /> 
+<person img="/images/bump/jason.jpg" name="Jason Elkin" caption="System.ArgumentNullException: Value cannot be null. Parameter name: sessionTitle" />

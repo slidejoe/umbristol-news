@@ -33,6 +33,7 @@ jobs:
         env: # Or as an environment variable
           VITE_WIFI_DESKLODGE: ${{ secrets.VITE_WIFI_DESKLODGE }}
           VITE_WIFI_TRUE: ${{ secrets.VITE_WIFI_TRUE }}
+          VITE_WIFI_GIBE: ${{ secrets.VITE_WIFI_GIBE }}
           # etc
         run: npx slidev build --base /umbristol-news/
 
