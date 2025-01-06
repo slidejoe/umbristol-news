@@ -20,11 +20,13 @@ function myAutoLinks(ctx: MarkdownTransformContext) {
 }
 
 function multiLineBullets(ctx: MarkdownTransformContext) {
+    // Only works for the first new line, I don't have time to make it work for multiple!
     ctx.s.replace(
       /(- .*?)(\n\s+[^-])/g,
       (match, p1, p2) => {
+        //console.log({ p1, p2 });
         return p1 + p2.replace(/\n\s+/g, '<br />')
-      },
+      }
     )
 }
 
