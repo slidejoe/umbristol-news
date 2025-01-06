@@ -48,7 +48,7 @@ class: text-right
 
 # umBristol
 
-dotNetConf, January 2025
+.NET Conf, January 2025
 
 <br />
 <br />
@@ -178,13 +178,13 @@ November and beyond
 
 <v-clicks>
 
-- 🐲 **Umbraco Winter Keynote** &middot; Thursday &middot; Online
+- 🐲 **Umbraco Winter Keynote** &middot; Tomorrow &middot; Online
   https://umbra.co/SignUp-mastodon
 - ✨ **Umbraco Spark** &middot; 7 March &middot; Bristol
   Tickets available (cheaper before February), Kevlin Henney announced as speaker
   https://umbracospark.com/
 - 🌷 **Codegarden** &middot; 18-20 June &middot; Odense, DK
-  Save the date! CFP open
+  Tickets go on sale _**tomorrow**_. CFP open.
   https://codegarden.umbraco.com/
 </v-clicks>
 
@@ -200,8 +200,9 @@ Pizza to eat, drinks to drink and a place to do it all!
 
 ::items::
 
-<person img="/images/gibe/pete.webp" name="Pete Williams" />
 <person img="/images/gibe/steve.webp" name="Steve Temple" />
+<person img="/images/gibe/cat.jpg" name="Cat Todd" />
+
 
 ---
 layout: items
