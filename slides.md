@@ -48,7 +48,7 @@ class: text-right
 
 # umBristol
 
-.NET Conf, January 2025
+.NET Conf, <date year="true" />
 
 <br />
 <br />
@@ -170,7 +170,7 @@ layout: section
 ---
 
 # Upcoming events
-November and beyond
+<date /> and beyond
 
 ::right::
 
@@ -200,8 +200,8 @@ Pizza to eat, drinks to drink and a place to do it all!
 
 ::items::
 
-<person img="/images/gibe/steve.webp" name="Steve Temple" />
-<person img="/images/gibe/cat.jpg" name="Cat Todd" />
+<person img="/images/gibe/sophie.jpg" name="Sophie Neale" caption="Professional Umbraco Login Screen Model" />
+<person img="/images/gibe/cat.jpg" name="Cat Todd" caption="The face behind Umbraco Spark" />
 
 
 ---
