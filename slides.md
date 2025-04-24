@@ -72,10 +72,10 @@ layout: section
 
 When you gotta go, you gotta go.
 
-<!-- ---
+---
 layout: section
 
-<!-- ---
+---
 
 # Wifi <lucide-wifi />
 
@@ -85,7 +85,7 @@ Connect digitally as well as socially
 
 ::right::
 
-<wifi mode="qr" /> -->
+<wifi mode="qr" />
 
 
 ---

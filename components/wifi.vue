@@ -17,7 +17,7 @@ defineProps(['mode', 'size'])
 //       type = 'WPA',
 //       pass = import.meta.env.VITE_WIFI_GIBE;
 
-const ssid = '',
+const ssid = 'WHCF Rooms',
       type = 'WPA',
       pass = import.meta.env.VITE_WIFI_WINDMILL_HILL;
 
