@@ -12,10 +12,14 @@ defineProps(['mode', 'size'])
 //       type = 'WPA',
 //       pass = import.meta.env.VITE_WIFI_TRUE;
 
-// Gibe's umBristol wifi
-const ssid = 'umBristol',
+// // Gibe's umBristol wifi
+// const ssid = 'umBristol',
+//       type = 'WPA',
+//       pass = import.meta.env.VITE_WIFI_GIBE;
+
+const ssid = '',
       type = 'WPA',
-      pass = import.meta.env.VITE_WIFI_GIBE;
+      pass = import.meta.env.VITE_WIFI_WINDMILL_HILL;
 
 // //Desklodge
 // const ssid = 'DeskLodge 3rd Floor',

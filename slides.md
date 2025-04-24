@@ -48,7 +48,7 @@ class: text-right
 
 # umBristol
 
-.NET Conf, <date year="true" />
+<date year="true" />
 
 <br />
 <br />
@@ -60,7 +60,7 @@ class: text-right
 layout: section
 ---
 
-# Emergency Exits
+# Emergency Exits <lucide-door-open />
 
 Don't panic!
 
@@ -68,16 +68,16 @@ Don't panic!
 layout: section
 ---
 
-# Toilets
+# Toilets <lucide-toilet />
 
 When you gotta go, you gotta go.
 
----
+<!-- ---
 layout: section
 
----
+<!-- ---
 
-# Wifi
+# Wifi <lucide-wifi />
 
 Connect digitally as well as socially
 
@@ -85,20 +85,20 @@ Connect digitally as well as socially
 
 ::right::
 
-<wifi mode="qr" />
+<wifi mode="qr" /> -->
 
 
 ---
 layout: intro
 ---
 
-# The News
+# <lucide-newspaper /> The News
 
 ---
 layout: section
 ---
 
-# Releases
+# Releases <lucide-ship />
 
 HQ have been busy
 
@@ -108,16 +108,40 @@ HQ have been busy
 
 <v-clicks>
 
-- 🚀 **Umbraco 15.1.1 release**
+- 🚀 **Umbraco 15.3 releases**
   
-  Cleanup, UFM improvements, TipTap improvements, Bugfixes
+  New TipTap features, Property Value Preset, Workspace Info App, more clipboard compatible editors & make your own
+- 🔒 **Security patches**
+
+  March: v10+, April: v14+
 </v-clicks>
+
+<!--
+Tiptap:
+ - Style Select menu
+ - Custom Stylesheets
+ - Font Family menu
+ - Font Size menu
+ - Table menu
+ - Text Direction (right-to-left)
+ - Generic markup (allows for <div> and <span> tags)
+
+v13 features:
+
+- Property Value Preset
+  - A replacement for using SendingContentNotification to predefine/preset a Property Value. This preset is now available as an extension type in the frontend to define or calculate a preset value for a property editor.
+- Workspace Info App
+  - Another replacement for using SendingContentNotification to remove or overwrite exciting elements in the Info View on Documents. The Workspace Info App now allows you to both remove, overwrite, or add more elements to the Info Workspace View on documents. 
+- Clipboard Feature & Extension Types
+  - Four new extension types related to the clipboard feature, allow you to traverse, clone, or copy values from a property editor — or paste values into a property editor.
+  - Plus, unlike in Umbraco 13, you can now implement clipboard features for a property editor without changing the code of the property editor.
+-->
 
 ---
 layout: section
 ---
 
-# CFPs
+# CFPs <lucide-message-circle-question />
 
 Apply to talk/appear at these events
 
@@ -125,14 +149,13 @@ Apply to talk/appear at these events
 
 <v-clicks>
 
-- ✨ **Umbraco Spark**
-  Want to speak at Umbraco Spark? Closes *31 January*!
-  https://sessionize.com/umbraco-spark-2025/
-- 🎪 **Codegarden**
-  Want to speak at Codegarden? Closes *14 February*!
-  https://sessionize.com/codegarden-week-2025/
+- 🦅 **US Festival**
+  Applications open until 9 May.
+
+  https://UmbracoFestival.us/
 - 🛖 **CODECABIN 2025**
   Mid-week this time. Applications are open.
+
   https://CodeCab.in
 
 </v-clicks>
@@ -142,7 +165,13 @@ Apply to talk/appear at these events
 layout: section
 ---
 
-# Community News
+<style scoped>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
+# Community <lucide-heart-handshake />
 
 Don't just watch the news, *be* the news!
 
@@ -150,26 +179,42 @@ Don't just watch the news, *be* the news!
 
 <!-- https://umb.fyi/firehose/news -->
 
-<v-clicks>
+<v-click hide>
 
-- 📅 **24 Days in Umbraco**
-  Fantastic collection of articles from across the community
-  https://24days.in/umbraco-cms
-- 🦋 **BlueSky for Umbraco Developers**
-  A guide to BlueSky from Matt Brailsford
-  https://mattbrailsford.dev/getting-started-on-bluesky-for-umbraco-developers
-- 😊 **Contentment v5.1**
-  https://github.com/leekelleher/umbraco-contentment
+- 📖 **Join the Docs team**
+  Join a community team. Apply before 5 May.
+  https://umbra.co/Docs-Signups-M
+- 🔙 **Umbraco Rollback Previewer**
+  Visual comparison using the rollback tool
+  `Umbraco.Community.RollbackPreviewer`
+- 👁️ **Personalization: How to Make It Actually Work**
+  HQ's video guide to using Umbraco Engage
+  https://youtu.be/xk7OIWJ3R24
+- ✨ **Spark photos are live**
+  https://umbracospark.com
+
+</v-click>
+
+<v-after>
+
+- ✨ **Spark photos are live**
+  https://umbracospark.com
 - ☕ **umbraCoffee - November 24**
-  Umbraco v15, Festivals Summary, EOTY...?
+  IsItCodegardenYet??? MVPs, releases and more!
   https://youtube.com/@umbraCoffee
-</v-clicks>
+- 💥 **Impact Report**
+  https://umbra.co/3FQYNJ3
+- 🗞️ **Skrift #115**
+  *HTMX & Umbraco* and *Property Editors for Bellissima*<br/>
+  https://skrift.io
+
+</v-after>
 
 ---
 layout: section
 ---
 
-# Upcoming events
+# Events <lucide-calendar-heart />
 <date /> and beyond
 
 ::right::
@@ -178,14 +223,13 @@ layout: section
 
 <v-clicks>
 
-- 🐲 **Umbraco Winter Keynote** &middot; Tomorrow &middot; Online
-  https://umbra.co/SignUp-mastodon
-- ✨ **Umbraco Spark** &middot; 7 March &middot; Bristol
-  Tickets available (cheaper before February), Kevlin Henney announced as speaker
-  https://umbracospark.com/
+- 🐄 **DDD South West** &middot; This Saturday &middot; Bristol
+  *Free* event on Saturday
+  https://dddsouthwest.com
 - 🌷 **Codegarden** &middot; 18-20 June &middot; Odense, DK
-  Tickets go on sale _**tomorrow**_. CFP open.
+  Programme live and Early Bird ends 1 May!
   https://codegarden.umbraco.com/
+
 </v-clicks>
 
 ---
@@ -193,26 +237,24 @@ layout: items
 cols: 2
 ---
 
-# Sponsored by
-Pizza to eat, drinks to drink and a place to do it all!
+# ![Bump Digital](/images/bump/logo.svg){style="height:1.75em;display:inline-block;margin-bottom:.5em;"}
 
-## Gibe Digital
+is sponsoring today's meetup venue, food and drink
 
 ::items::
 
-<person img="/images/gibe/sophie.jpg" name="Sophie Neale" caption="Professional Umbraco Login Screen Model" />
-<person img="/images/gibe/cat.jpg" name="Cat Todd" caption="The face behind Umbraco Spark" />
-
+<person img="/images/bump/jason.jpg" name="Jason Elkin" caption="Lead Developer" />
+<person img="/images/bump/joe.jpg" name="Joe Glombek" caption="(Me)" />
 
 ---
 layout: items
 cols: 2
 ---
 
-# Let's go!
+# Let's go! <lucide-rocket />
 Handing over to these lovely people&hellip;
 
 ::items::
 
-<person img="/images/umbraco/lotte.jpg" name="Lotte Pitcher" caption="Releasing HybridCache into the Wild with Umbraco" /> 
-<person img="/images/bump/jason.jpg" name="Jason Elkin" caption="System.ArgumentNullException: Value cannot be null. Parameter name: sessionTitle" />
+<person img="/images/gibe/luke.jpg" name="Luke Hook" caption="Visual Studio / .NET tips and tricks" /> 
+<person img="/images/method4/owain.png" name="Owain Jones" caption="How I made migrating our client's websites, from 8 to 13, easy! (ish)" />
