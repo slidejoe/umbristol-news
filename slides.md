@@ -199,10 +199,10 @@ Don't just watch the news, *be* the news!
 
 - ✨ **Spark photos are live**
   https://umbracospark.com
-- ☕ **umbraCoffee - November 24**
+- ☕ **umbraCoffee - March 25**
   IsItCodegardenYet??? MVPs, releases and more!
   https://youtube.com/@umbraCoffee
-- 💥 **Impact Report**
+- 💥 **Umbraco Impact Report**
   https://umbra.co/3FQYNJ3
 - 🗞️ **Skrift #115**
   *HTMX & Umbraco* and *Property Editors for Bellissima*<br/>
