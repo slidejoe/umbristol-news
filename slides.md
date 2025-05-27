@@ -237,14 +237,16 @@ layout: items
 cols: 2
 ---
 
-# ![Bump Digital](/images/bump/logo.svg){style="height:1.75em;display:inline-block;margin-bottom:.5em;"}
+# ![Umbraco](/images/umbraco/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
 
 is sponsoring today's meetup venue, food and drink
 
+![Gibe](/images/gibe/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.2em;"}  <span style="opacity: 0.5;">is hosting</span>
+
 ::items::
 
-<person img="/images/bump/jason.jpg" name="Jason Elkin" caption="Lead Developer" />
-<person img="/images/bump/joe.jpg" name="Joe Glombek" caption="(Me)" />
+<person img="/images/gibe/cat.jpg" name="Cat Todd" caption="Queen of Spark" />
+<person img="/images/gibe/matt-begent.jpg" name="Matt Begent" caption="Accessibility Reporter (Me)" /> 
 
 ---
 layout: items
@@ -256,5 +258,5 @@ Handing over to these lovely people&hellip;
 
 ::items::
 
-<person img="/images/gibe/luke.jpg" name="Luke Hook" caption="Visual Studio / .NET tips and tricks" /> 
-<person img="/images/method4/owain.png" name="Owain Jones" caption="How I made migrating our client's websites, from 8 to 13, easy! (ish)" />
+<person img="/images/absurd/adam-and-richard.jpg" name="Richard Jackson & Adam Prendergast" caption="Build Your Own Developer Blog with Umbraco 15 & Astro" /> 
+<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="Hosting Umbraco in Containers" />
