@@ -108,12 +108,17 @@ HQ have been busy
 
 <v-clicks>
 
-- 🚀 **Umbraco 15.3 releases**
+- 🚀 **Umbraco 15.4.1 releases**
   
-  New TipTap features, Property Value Preset, Workspace Info App, more clipboard compatible editors & make your own
+  Improved Dropzone component, added validation feedback when saving and enhanced references handling between content, media, and members with better display and delete warnings
+
+- 🚀 **Umbraco 16 release candidates**
+
+  TinyMCE is gone, editor experience improvements, more extension points, property-level permissions, segment support and some breaking changes
+
 - 🔒 **Security patches**
 
-  March: v10+, April: v14+
+  April: v14+, May: v10 & v13
 </v-clicks>
 
 <!--
@@ -150,11 +155,12 @@ Apply to talk/appear at these events
 <v-clicks>
 
 - 🦅 **US Festival**
-  Applications open until 9 May.
+  Applications open until 27th June.
 
   https://UmbracoFestival.us/
+
 - 🛖 **CODECABIN 2025**
-  Mid-week this time. Applications are open.
+  Mid-week this time. Applications open until 10th July.
 
   https://CodeCab.in
 
@@ -181,32 +187,34 @@ Don't just watch the news, *be* the news!
 
 <v-click hide>
 
-- 📖 **Join the Docs team**
-  Join a community team. Apply before 5 May.
-  https://umbra.co/Docs-Signups-M
-- 🔙 **Umbraco Rollback Previewer**
-  Visual comparison using the rollback tool
-  `Umbraco.Community.RollbackPreviewer`
-- 👁️ **Personalization: How to Make It Actually Work**
-  HQ's video guide to using Umbraco Engage
-  https://youtu.be/xk7OIWJ3R24
-- ✨ **Spark photos are live**
-  https://umbracospark.com
+- ☕ **umbraCoffee - this Friday - May 30th - 11:30am!**
+  Pre Codegarden extravaganza!
+  Please subscribe to the YouTube channel to get notifications.
+  https://youtube.com/@umbraCoffee
+- 🪕 **Docs team has been announced**
+  Richard has made the cut!
+  https://community.umbraco.com/the-community-blog/meet-the-umbraco-community-docs-team-2025/
+- 🌳 **Sustainability team has been announced**
+  Tom has made the cut!
+  https://umbraco.com/blog/meet-the-friendly-and-green-community-sustainability-team-of-20252026/
 
 </v-click>
 
 <v-after>
 
-- ✨ **Spark photos are live**
-  https://umbracospark.com
-- ☕ **umbraCoffee - March 25**
-  IsItCodegardenYet??? MVPs, releases and more!
-  https://youtube.com/@umbraCoffee
-- 💥 **Umbraco Impact Report**
-  https://umbra.co/3FQYNJ3
-- 🗞️ **Skrift #115**
-  *HTMX & Umbraco* and *Property Editors for Bellissima*<br/>
-  https://skrift.io
+- 🏆 **Umbraco Award Nominations Announced!**
+  Anyone been nominated? Carl is on the package award jury.<br/>
+  https://umbraco.com/blog/announcing-the-2025-umbraco-awards-nominees/
+
+- 🎂 **Skrift 10 years!**
+  https://skrift.io/issues/ten-years/
+
+- 🥇 **Interesting package of the month award!**
+
+The winner is Content Audit by Rick Butterfield.<br/>
+First class site crawling and SEO auditing for Umbraco. Includes documentation on how to extend and add your own audits.<br/>
+https://rickbutterfield.dev/blog/contentaudit/
+
 
 </v-after>
 
@@ -223,12 +231,17 @@ layout: section
 
 <v-clicks>
 
-- 🐄 **DDD South West** &middot; This Saturday &middot; Bristol
-  *Free* event on Saturday
-  https://dddsouthwest.com
+- 🟥 **UmbraCymru - Umbraco Workshop** 
+  Tomorrow 6:30 - 9pm at Method4 Ltd Cardiff.
+  See Richard and Adam again but in Wales!<br/>
+  "Build Your Own Developer Blog with Umbraco 15 & Astro"
+  https://www.meetup.com/umbracymru/events/307029207/
+
+
 - 🌷 **Codegarden** &middot; 18-20 June &middot; Odense, DK
-  Programme live and Early Bird ends 1 May!
+  Programme live!
   https://codegarden.umbraco.com/
+
 
 </v-clicks>
 
