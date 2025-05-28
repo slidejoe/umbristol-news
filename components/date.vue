@@ -4,7 +4,7 @@ var props = defineProps({
 })
 var formatter;
 if(props.year) {
-  formatter = new Intl.DateTimeFormat('default', { month: 'long', year: '2-digit' });
+  formatter = new Intl.DateTimeFormat('default', { month: 'long', year: 'numeric' });
 } else {
   formatter = new Intl.DateTimeFormat('default', { month: 'long' });
 }
