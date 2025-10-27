@@ -203,18 +203,15 @@ Don't just watch the news, *be* the news!
 <v-after>
 
 - 🏆 **Umbraco Award Nominations Announced!**
-  Anyone been nominated? Carl is on the package award jury.<br/>
+  Anyone been nominated? Carl is on the package award jury.
   https://umbraco.com/blog/announcing-the-2025-umbraco-awards-nominees/
-
 - 🎂 **Skrift 10 years!**
   https://skrift.io/issues/ten-years/
-
 - 🥇 **Interesting package of the month award!**
-
-The winner is Content Audit by Rick Butterfield.<br/>
-First class site crawling and SEO auditing for Umbraco. Includes documentation on how to extend and add your own audits.<br/>
-https://rickbutterfield.dev/blog/contentaudit/
-
+  The winner is Content Audit by Rick Butterfield.
+  
+  First class site crawling and SEO auditing for Umbraco. Includes documentation on how to extend and add your own audits.
+  https://rickbutterfield.dev/blog/contentaudit/
 
 </v-after>
 
@@ -233,7 +230,8 @@ layout: section
 
 - 🟥 **UmbraCymru - Umbraco Workshop** 
   Tomorrow 6:30 - 9pm at Method4 Ltd Cardiff.
-  See Richard and Adam again but in Wales!<br/>
+  See Richard and Adam again but in Wales!
+
   "Build Your Own Developer Blog with Umbraco 15 & Astro"
   https://www.meetup.com/umbracymru/events/307029207/
 
