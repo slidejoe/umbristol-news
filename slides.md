@@ -54,7 +54,7 @@ class: text-right
 <br />
 
 <!-- Set wifi credentials in /components/wifi.vue -->
-<wifi size="100" />
+<!-- <wifi size="100" /> -->
 
 ---
 layout: section
@@ -74,7 +74,7 @@ When you gotta go, you gotta go.
 
 ---
 layout: section
-
+hide: true
 ---
 
 # Wifi <lucide-wifi />
@@ -104,43 +104,20 @@ HQ have been busy
 
 ::right::
 
-<!-- https://our.umbraco.com/download/releases -->
-
-<v-clicks>
-
-- 🚀 **Umbraco 15.4.1 releases**
-  
-  Improved Dropzone component, added validation feedback when saving and enhanced references handling between content, media, and members with better display and delete warnings
-
-- 🚀 **Umbraco 16 release candidates**
-
-  TinyMCE is gone, editor experience improvements, more extension points, property-level permissions, segment support and some breaking changes
-
-- 🔒 **Security patches**
-
-  April: v14+, May: v10 & v13
-</v-clicks>
-
 <!--
-Tiptap:
- - Style Select menu
- - Custom Stylesheets
- - Font Family menu
- - Font Size menu
- - Table menu
- - Text Direction (right-to-left)
- - Generic markup (allows for <div> and <span> tags)
-
-v13 features:
-
-- Property Value Preset
-  - A replacement for using SendingContentNotification to predefine/preset a Property Value. This preset is now available as an extension type in the frontend to define or calculate a preset value for a property editor.
-- Workspace Info App
-  - Another replacement for using SendingContentNotification to remove or overwrite exciting elements in the Info View on Documents. The Workspace Info App now allows you to both remove, overwrite, or add more elements to the Info Workspace View on documents. 
-- Clipboard Feature & Extension Types
-  - Four new extension types related to the clipboard feature, allow you to traverse, clone, or copy values from a property editor — or paste values into a property editor.
-  - Plus, unlike in Umbraco 13, you can now implement clipboard features for a property editor without changing the code of the property editor.
+https://releases.umbraco.com/all-releases/
+https://umb.fyi/tag/security
 -->
+
+
+- 🚀 **Umbraco 17.2.0 release**
+  
+  "Root properties" (without a tab or section) and more minor v13 features
+
+- 🤖 **Umbraco MCP Developer v17.1.0 release**
+  
+  Agents can update individual document properties and nested block content without replacing the document, create-media-folder tool
+
 
 ---
 layout: section
@@ -152,19 +129,11 @@ Apply to talk/appear at these events
 
 ::right::
 
-<v-clicks>
+- 🐄 **DDD South West**
+  Applications open until 7th March.
 
-- 🦅 **US Festival**
-  Applications open until 27th June.
+  https://DDDSouthWest.com
 
-  https://UmbracoFestival.us/
-
-- 🛖 **CODECABIN 2025**
-  Mid-week this time. Applications open until 10th July.
-
-  https://CodeCab.in
-
-</v-clicks>
 
 
 ---
@@ -184,36 +153,28 @@ Don't just watch the news, *be* the news!
 ::right::
 
 <!-- https://umb.fyi/firehose/news -->
-
 <v-click hide>
 
-- ☕ **umbraCoffee - this Friday - May 30th - 11:30am!**
-  Pre Codegarden extravaganza!
-  Please subscribe to the YouTube channel to get notifications.
-  https://youtube.com/@umbraCoffee
-- 🪕 **Docs team has been announced**
-  Richard has made the cut!
-  https://community.umbraco.com/the-community-blog/meet-the-umbraco-community-docs-team-2025/
-- 🌳 **Sustainability team has been announced**
-  Tom has made the cut!
-  https://umbraco.com/blog/meet-the-friendly-and-green-community-sustainability-team-of-20252026/
+- 🎼 **Umbraco Compose demo by CTO, Filip Bech-Larsen.**
+  https://www.youtube.com/watch?v=VnxqTnMjSYE
+- 🎼 **Umbraco Compose example project**
+  https://www.youtube.com/watch?v=tXdbHn14Gn8
+- ❇️ **Introducing Umbraco AI**
+  https://mattbrailsford.dev/introducing-umbraco-ai
+- 🤿 **DevRel Deep Dive: Creating Backoffice Extensions with AI Skills**
+  https://www.youtube.com/watch?v=GR-NZra1528
 
 </v-click>
 
-<v-after>
+<v-click at="1">
 
-- 🏆 **Umbraco Award Nominations Announced!**
-  Anyone been nominated? Carl is on the package award jury.
-  https://umbraco.com/blog/announcing-the-2025-umbraco-awards-nominees/
-- 🎂 **Skrift 10 years!**
-  https://skrift.io/issues/ten-years/
-- 🥇 **Interesting package of the month award!**
-  The winner is Content Audit by Rick Butterfield.
-  
-  First class site crawling and SEO auditing for Umbraco. Includes documentation on how to extend and add your own audits.
-  https://rickbutterfield.dev/blog/contentaudit/
+- 🏆 **Umbraco Award applications open**
+  Until 27th March
+  https://codegarden.umbraco.com/awards/umbraco-solution-awards
+- 🛠️ **Contributing Partners 2025 announced**
+  https://umbraco.com/blog/announcing-umbraco-contributing-partners-2025
 
-</v-after>
+</v-click>
 
 ---
 layout: section
@@ -228,16 +189,16 @@ layout: section
 
 <v-clicks>
 
-- 🟥 **UmbraCymru - Umbraco Workshop** 
-  Tomorrow 6:30 - 9pm at Method4 Ltd Cardiff.
-  See Richard and Adam again but in Wales!
+- ✨ **Umbraco Spark & related events**  &middot; 19-20 March &middot; Bristol
+  Tickets available! Sign up for the other events too:
+  https://umbracospark.com/2026-umbraco-spark
 
-  "Build Your Own Developer Blog with Umbraco 15 & Astro"
-  https://www.meetup.com/umbracymru/events/307029207/
+- 🐄 **DDD South West** &middot; 16 May &middot; Bristol
+  FREE event at the weekend!
+  https://DDDSouthWest.com
 
-
-- 🌷 **Codegarden** &middot; 18-20 June &middot; Odense, DK
-  Programme live!
+- 🌷 **Codegarden** &middot; 10-11 June &middot; Odense, DK
+  Speaker programme expected soon
   https://codegarden.umbraco.com/
 
 
@@ -248,16 +209,21 @@ layout: items
 cols: 2
 ---
 
-# ![Umbraco](/images/umbraco/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
+<style scoped>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
+# ![true](/images/true/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
 
 is sponsoring today's meetup venue, food and drink
 
-![Gibe](/images/gibe/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.2em;"}  <span style="opacity: 0.5;">is hosting</span>
-
 ::items::
 
-<person img="/images/gibe/cat.jpg" name="Cat Todd" caption="Queen of Spark" />
-<person img="/images/gibe/matt-begent.jpg" name="Matt Begent" caption="Accessibility Reporter (Me)" /> 
+<person img="/images/true/matt.jpg" name="Matt Sutherland" caption="Head of Technology" />
+<person v-click.hide img="/images/true/richard-osman.jpg" name=" Rich McCloskey" caption="Managing Director" />
+<person v-click="1" img="/images/true/rich.png" name=" Rich McCloskey" caption="Managing Director" />
 
 ---
 layout: items
@@ -267,7 +233,11 @@ cols: 2
 # Let's go! <lucide-rocket />
 Handing over to these lovely people&hellip;
 
+# 🫵🏻
+(it's you)
+
 ::items::
 
-<person img="/images/absurd/adam-and-richard.jpg" name="Richard Jackson & Adam Prendergast" caption="Build Your Own Developer Blog with Umbraco 15 & Astro" /> 
-<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="Hosting Umbraco in Containers" />
+<!-- <person img="/images/absurd/adam-and-richard.jpg" name="Richard Jackson & Adam Prendergast" caption="Build Your Own Developer Blog with Umbraco 15 & Astro" /> 
+<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="Hosting Umbraco in Containers" /> -->
+
