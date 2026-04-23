@@ -110,14 +110,11 @@ https://umb.fyi/tag/security
 -->
 
 
-- 🚀 **Umbraco 17.2.0 release**
+- 🚀 **Umbraco 17.3.4 release**
   
-  "Root properties" (without a tab or section) and more minor v13 features
+  Database migration tweaks, auto-generated imaging HMAC key for new installs (broke some packages?), Central Package Management support in templates. Plus 183 fixes and improvements (35 from 22 community contributors, 8 first-timers!)
 
-- 🤖 **Umbraco MCP Developer v17.1.0 release**
-  
-  Agents can update individual document properties and nested block content without replacing the document, create-media-folder tool
-
+  Also, broke exports in Accessibility Reporter! Which I have now fixed!
 
 ---
 layout: section
@@ -129,11 +126,15 @@ Apply to talk/appear at these events
 
 ::right::
 
-- 🐄 **DDD South West**
-  Applications open until 7th March.
+- 🎡 **UMBUK26 - The Umbraco UK Conference**
+  Applications open from May 1st to July 1st.
 
-  https://DDDSouthWest.com
+  https://conf.umbraco.community/
 
+- ✈️ **Umbraco Kalaset - Swedish Umbraco Festival**
+  Applications open from April 13th to August 16th.
+
+  https://sessionize.com/umbracokalaset-2026
 
 
 ---
@@ -153,20 +154,22 @@ Don't just watch the news, *be* the news!
 ::right::
 
 <!-- https://umb.fyi/firehose/news -->
-<v-click hide>
+<!-- <v-click hide> -->
 
-- 🎼 **Umbraco Compose demo by CTO, Filip Bech-Larsen.**
-  https://www.youtube.com/watch?v=VnxqTnMjSYE
-- 🎼 **Umbraco Compose example project**
-  https://www.youtube.com/watch?v=tXdbHn14Gn8
-- ❇️ **Introducing Umbraco AI**
-  https://mattbrailsford.dev/introducing-umbraco-ai
-- 🤿 **DevRel Deep Dive: Creating Backoffice Extensions with AI Skills**
-  https://www.youtube.com/watch?v=GR-NZra1528
+- 📌 **Umbraco.Community.Favourites released!**
+  https://github.com/Gibe/Umbraco.Community.Favourites
+- 🦭 **New Paul Seal Video: Using Custom Umbraco AI Tools to Write a Whole Article Automatically**
+  https://www.youtube.com/watch?v=Wrfwi7oGqG8
+- 🏆 **Umbraco Award nominations have been announced**
+  https://umbraco.com/blog/announcing-the-2026-umbraco-awards-nominees/
+- 📦 **Still time to submit your package for an award**
+  May 3rd deadline 
+  https://codegarden.umbraco.com/awards/package-awards/
+- Add some more
 
-</v-click>
+<!-- </v-click> -->
 
-<v-click at="1">
+<!-- <v-click at="1">
 
 - 🏆 **Umbraco Award applications open**
   Until 27th March
@@ -174,7 +177,7 @@ Don't just watch the news, *be* the news!
 - 🛠️ **Contributing Partners 2025 announced**
   https://umbraco.com/blog/announcing-umbraco-contributing-partners-2025
 
-</v-click>
+</v-click> -->
 
 ---
 layout: section
@@ -189,17 +192,18 @@ layout: section
 
 <v-clicks>
 
-- ✨ **Umbraco Spark & related events**  &middot; 19-20 March &middot; Bristol
-  Tickets available! Sign up for the other events too:
-  https://umbracospark.com/2026-umbraco-spark
-
-- 🐄 **DDD South West** &middot; 16 May &middot; Bristol
-  FREE event at the weekend!
-  https://DDDSouthWest.com
+- 🌐 **UMBRAAD 2026**  &middot; 21 May &middot; Virtual
+  Get your tickets now! Speakers have been selected
+  https://www.meetup.com/umbraco-virtual/events/314400053/
 
 - 🌷 **Codegarden** &middot; 10-11 June &middot; Odense, DK
-  Speaker programme expected soon
+  You can still buy tickets!
   https://codegarden.umbraco.com/
+
+  
+- 🎡 **UMBUK26** &middot; 16 Oct &middot; London, UK
+  Super early bird tickets available!
+  https://conf.umbraco.community/
 
 
 </v-clicks>
@@ -215,15 +219,15 @@ cols: 2
   }
 </style>
 
-# ![true](/images/true/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
+# ![true](/images/gibe/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
 
 is sponsoring today's meetup venue, food and drink
 
 ::items::
 
-<person img="/images/true/matt.jpg" name="Matt Sutherland" caption="Head of Technology" />
-<person v-click.hide img="/images/true/richard-osman.jpg" name=" Rich McCloskey" caption="Managing Director" />
-<person v-click="1" img="/images/true/rich.png" name=" Rich McCloskey" caption="Managing Director" />
+<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="King of the demos!" />
+<!-- <person v-click.hide img="/images/true/richard-osman.jpg" name=" Rich McCloskey" caption="Managing Director" /> -->
+<!-- <person v-click="1" img="/images/true/rich.png" name=" Rich McCloskey" caption="Managing Director" /> -->
 
 ---
 layout: items
