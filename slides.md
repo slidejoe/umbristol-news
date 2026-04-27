@@ -74,7 +74,6 @@ When you gotta go, you gotta go.
 
 ---
 layout: section
-hide: true
 ---
 
 # Wifi <lucide-wifi />
@@ -183,6 +182,12 @@ Don't just watch the news, *be* the news!
 layout: section
 ---
 
+<style scoped>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
 # Events <lucide-calendar-heart />
 <date /> and beyond
 
@@ -190,23 +195,36 @@ layout: section
 
 <!-- https://umbracalendar.com/ -->
 
-<v-clicks>
+<v-click hide>
 
-- 🌐 **UMBRAAD 2026**  &middot; 21 May &middot; Virtual
+- 🌐 **UMBRAAD 2026**  &middot; 21st May &middot; Virtual
   Get your tickets now! Speakers have been selected
   https://www.meetup.com/umbraco-virtual/events/314400053/
 
-- 🌷 **Codegarden** &middot; 10-11 June &middot; Odense, DK
+- 🌷 **Codegarden** &middot; 10th-11th June &middot; Odense, DK
   You can still buy tickets!
   https://codegarden.umbraco.com/
-
   
-- 🎡 **UMBUK26** &middot; 16 Oct &middot; London, UK
+- 🎡 **UMBUK26** &middot; 16th Oct &middot; London, UK
   Super early bird tickets available!
   https://conf.umbraco.community/
 
 
-</v-clicks>
+</v-click>
+
+<v-click at="1">
+
+- 💂 **The London Umbraco Meetup** &middot; 14th May &middot; Novicell UK, London
+  Umbraco & AI evening hackathon 14th May
+  https://www.meetup.com/the-london-umbraco-meetup
+
+- 🏢 **Next umBristol** &middot; 20th May
+  
+- 🐲 **UmbraCymru: The Wales Umbraco Meetup** &middot; 28th May &middot; Spindogs, Cardiff
+  UmbraCymru - Lightning Talks
+  https://www.meetup.com/umbracymru/events/314037227/
+
+</v-click>
 
 ---
 layout: items
@@ -225,9 +243,23 @@ is sponsoring today's meetup venue, food and drink
 
 ::items::
 
-<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="King of the demos!" />
-<!-- <person v-click.hide img="/images/true/richard-osman.jpg" name=" Rich McCloskey" caption="Managing Director" /> -->
-<!-- <person v-click="1" img="/images/true/rich.png" name=" Rich McCloskey" caption="Managing Director" /> -->
+<person img="/images/gibe/matt-begent.jpg" name="Matt Begent" caption="Host / Generic Developer" />
+<person img="/images/gibe/cat.jpg" name="Cat Todd" caption="Organiser / Director of Pizza Purchasing" />
+
+---
+layout: items
+cols: 2
+---
+
+<style scoped>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
+::items::
+
+<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="DDoS My Desk: Load Balancing Live and Uncut!" />
 
 ---
 layout: items

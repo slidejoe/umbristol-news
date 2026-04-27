@@ -3,9 +3,9 @@ defineProps(['mode', 'size'])
 
 // Get details from https://www.wigle.net/
 // Remember to add a secret to Github (https://github.com/slidejoe/umbristol-news/settings/secrets/actions/new) and update ./deploy.yml
-const ssid = '',
-      type = '',
-      pass = import.meta.env.VITE_WIFI_XXX;
+// const ssid = '',
+//       type = '',
+//       pass = import.meta.env.VITE_WIFI_XXX;
 
 // // True
 // const ssid = 'TDEXTERNAL',
@@ -13,9 +13,9 @@ const ssid = '',
 //       pass = import.meta.env.VITE_WIFI_TRUE;
 
 // Gibe's umBristol wifi
-// const ssid = 'umBristol',
-//       type = 'WPA',
-//       pass = import.meta.env.VITE_WIFI_GIBE;
+const ssid = 'umBristol',
+      type = 'WPA',
+      pass = import.meta.env.VITE_WIFI_GIBE;
 
 // const ssid = 'WHCF Rooms',
 //       type = 'WPA',
