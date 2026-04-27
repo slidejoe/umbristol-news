@@ -126,7 +126,7 @@ Apply to talk/appear at these events
 ::right::
 
 - 🎡 **UMBUK26 - The Umbraco UK Conference**
-  Applications open from May 1st to July 1st.
+  Applications open THIS Friday (May 1st) – July 1st!
 
   https://conf.umbraco.community/
 
@@ -164,7 +164,6 @@ Don't just watch the news, *be* the news!
 - 📦 **Still time to submit your package for an award**
   May 3rd deadline 
   https://codegarden.umbraco.com/awards/package-awards/
-- Add some more
 
 <!-- </v-click> -->
 
