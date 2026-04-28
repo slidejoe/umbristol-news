@@ -129,7 +129,7 @@ Apply to talk/appear at these events
 
 ::right::
 
-- 🎡 **UMBUK26 - The Umbraco UK Conference**
+- 🎡 **Umbraco UK Conference 2026**
   Applications open THIS Friday (May 1st) – July 1st!
 
   https://conf.umbraco.community/
@@ -207,7 +207,7 @@ layout: section
 <v-click hide>
 
 - 🚜 **DDD South West 2026** &middot; 16th May &middot; Bristol
-  FREE tickets are now live - grab yours while they last!
+  SOLD OUT! Get on the waiting list for a FREE ticket!
   https://dddsouthwest.com/
 
 - 💂 **London Umbraco Meetup** &middot; 14th May &middot; London
@@ -232,7 +232,7 @@ layout: section
   You can still buy tickets!
   https://codegarden.umbraco.com/
   
-- 🎡 **UMBUK26** &middot; 16th Oct &middot; London, UK
+- 🎡 **Umbraco UK Conference 2026** &middot; 16th Oct &middot; London, UK
   Super early bird tickets available!
   https://conf.umbraco.community/
 
