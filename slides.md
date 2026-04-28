@@ -78,7 +78,7 @@ layout: section
 
 # Wifi <lucide-wifi />
 
-Connect digitally as well as socially
+Connect digitally
 
 <wifi mode="text" />
 
@@ -115,6 +115,10 @@ https://umb.fyi/tag/security
 
   Also, broke exports in Accessibility Reporter! Which I have now fixed!
 
+- 🔒 **Umbraco 13.14.0**
+  
+  Releasing on Thursday. Resolves security vulnerability warnings with System.Security.Cryptography.Xml. 
+
 ---
 layout: section
 ---
@@ -131,10 +135,14 @@ Apply to talk/appear at these events
   https://conf.umbraco.community/
 
 - ✈️ **Umbraco Kalaset - Swedish Umbraco Festival**
-  Applications open from April 13th to August 16th.
+  Applications close on August 16th.
 
   https://sessionize.com/umbracokalaset-2026
 
+- 🔥 **UMBRAAD 2026 - Fireside chats**
+  Navigating burnout when building for accessibility or cultivating business buy-in.
+
+  https://umbraad.com/
 
 ---
 layout: section
@@ -153,29 +161,31 @@ Don't just watch the news, *be* the news!
 ::right::
 
 <!-- https://umb.fyi/firehose/news -->
-<!-- <v-click hide> -->
+<v-click hide>
 
-- 📌 **Umbraco.Community.Favourites released!**
+- 📌 **Favourites wins inaugural Sparkies!**
+  Pin your most-used content items!
   https://github.com/Gibe/Umbraco.Community.Favourites
+
+- 🗺️ **Umbraco.Community.DeliveryApiModelMapper**
+  Create custom models with the Delivery API - released at the Spark Package Jam
+  https://github.com/Gibe/Umbraco.Community.DeliveryApiModelMapper
+
 - 🦭 **New Paul Seal Video: Using Custom Umbraco AI Tools to Write a Whole Article Automatically**
   https://www.youtube.com/watch?v=Wrfwi7oGqG8
+
+</v-click>
+
+<v-click at="1">
+
 - 🏆 **Umbraco Award nominations have been announced**
   https://umbraco.com/blog/announcing-the-2026-umbraco-awards-nominees/
+
 - 📦 **Still time to submit your package for an award**
   May 3rd deadline 
   https://codegarden.umbraco.com/awards/package-awards/
 
-<!-- </v-click> -->
-
-<!-- <v-click at="1">
-
-- 🏆 **Umbraco Award applications open**
-  Until 27th March
-  https://codegarden.umbraco.com/awards/umbraco-solution-awards
-- 🛠️ **Contributing Partners 2025 announced**
-  https://umbraco.com/blog/announcing-umbraco-contributing-partners-2025
-
-</v-click> -->
+</v-click>
 
 ---
 layout: section
@@ -196,6 +206,24 @@ layout: section
 
 <v-click hide>
 
+- 🚜 **DDD South West 2026** &middot; 16th May &middot; Bristol
+  FREE tickets are now live - grab yours while they last!
+  https://dddsouthwest.com/
+
+- 💂 **London Umbraco Meetup** &middot; 14th May &middot; London
+  Umbraco & AI evening hackathon
+  https://www.meetup.com/the-london-umbraco-meetup
+
+- 🏢 **Next umBristol** &middot; 20th May
+  
+- 🐲 **UmbraCymru: The Wales Umbraco Meetup** &middot; 28th May &middot; Spindogs, Cardiff
+  UmbraCymru - Lightning Talks. Joe is giving one of the talks!
+  https://www.meetup.com/umbracymru/events/314037227/
+
+</v-click>
+
+<v-click at="1">
+
 - 🌐 **UMBRAAD 2026**  &middot; 21st May &middot; Virtual
   Get your tickets now! Speakers have been selected
   https://www.meetup.com/umbraco-virtual/events/314400053/
@@ -207,21 +235,6 @@ layout: section
 - 🎡 **UMBUK26** &middot; 16th Oct &middot; London, UK
   Super early bird tickets available!
   https://conf.umbraco.community/
-
-
-</v-click>
-
-<v-click at="1">
-
-- 💂 **The London Umbraco Meetup** &middot; 14th May &middot; Novicell UK, London
-  Umbraco & AI evening hackathon 14th May
-  https://www.meetup.com/the-london-umbraco-meetup
-
-- 🏢 **Next umBristol** &middot; 20th May
-  
-- 🐲 **UmbraCymru: The Wales Umbraco Meetup** &middot; 28th May &middot; Spindogs, Cardiff
-  UmbraCymru - Lightning Talks
-  https://www.meetup.com/umbracymru/events/314037227/
 
 </v-click>
 
@@ -250,23 +263,8 @@ layout: items
 cols: 2
 ---
 
-<style scoped>
-  .slidev-vclick-hidden {
-    display: none;
-  }
-</style>
-
-::items::
-
-<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="DDoS My Desk: Load Balancing Live and Uncut!" />
-
----
-layout: items
-cols: 2
----
-
 # Let's go! <lucide-rocket />
-Handing over to these lovely people&hellip;
+Handing over to&hellip;
 
 # 🫵🏻
 (it's you)
@@ -276,3 +274,15 @@ Handing over to these lovely people&hellip;
 <!-- <person img="/images/absurd/adam-and-richard.jpg" name="Richard Jackson & Adam Prendergast" caption="Build Your Own Developer Blog with Umbraco 15 & Astro" /> 
 <person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="Hosting Umbraco in Containers" /> -->
 
+---
+layout: items
+cols: 2
+---
+
+<style scoped>
+  .slidev-vclick-hidden {
+    display: none;
+  }
+</style>
+
+<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="DDoS My Desk: Load Balancing Live and Uncut!" />
