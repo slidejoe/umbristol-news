@@ -74,6 +74,7 @@ When you gotta go, you gotta go.
 
 ---
 layout: section
+hide: true
 ---
 
 # Wifi <lucide-wifi />
@@ -109,40 +110,17 @@ https://umb.fyi/tag/security
 -->
 
 
-- 🚀 **Umbraco 17.3.4 release**
-  
-  Database migration tweaks, auto-generated imaging HMAC key for new installs (broke some packages?), Central Package Management support in templates. Plus 183 fixes and improvements (35 from 22 community contributors, 8 first-timers!)
+- 🚀 **Umbraco 17.7.0 & 18.2.0**
 
-  Also, broke exports in Accessibility Reporter! Which I have now fixed!
+  Both land *tomorrow* (Thursday 17th). Various UX improvements and connection strings written to appsettings files that exist.
 
-- 🔒 **Umbraco 13.14.0**
-  
-  Releasing on Thursday. Resolves security vulnerability warnings with System.Security.Cryptography.Xml. 
+- 🔒 **Umbraco 13.16.2**
 
----
-layout: section
----
+  Out on Monday — dependency security patches
 
-# CFPs <lucide-message-circle-question />
+- 🛡️ **August security advisory**
 
-Apply to talk/appear at these events
-
-::right::
-
-- 🎡 **Umbraco UK Conference 2026**
-  Applications open THIS Friday (May 1st) – July 1st!
-
-  https://conf.umbraco.community/
-
-- ✈️ **Umbraco Kalaset - Swedish Umbraco Festival**
-  Applications close on August 16th.
-
-  https://sessionize.com/umbracokalaset-2026
-
-- 🔥 **UMBRAAD 2026 - Fireside chats**
-  Navigating burnout when building for accessibility or cultivating business buy-in.
-
-  https://umbraad.com/
+  Four vulnerabilities patched across CMS, Forms and AI. No patches fo v14-16.
 
 ---
 layout: section
@@ -161,31 +139,10 @@ Don't just watch the news, *be* the news!
 ::right::
 
 <!-- https://umb.fyi/firehose/news -->
-<v-click hide>
 
-- 📌 **Favourites wins inaugural Sparkies!**
-  Pin your most-used content items!
-  https://github.com/Gibe/Umbraco.Community.Favourites
-
-- 🗺️ **Umbraco.Community.DeliveryApiModelMapper**
-  Create custom models with the Delivery API - released at the Spark Package Jam
-  https://github.com/Gibe/Umbraco.Community.DeliveryApiModelMapper
-
-- 🦭 **New Paul Seal Video: Using Custom Umbraco AI Tools to Write a Whole Article Automatically**
-  https://www.youtube.com/watch?v=Wrfwi7oGqG8
-
-</v-click>
-
-<v-click at="1">
-
-- 🏆 **Umbraco Award nominations have been announced**
-  https://umbraco.com/blog/announcing-the-2026-umbraco-awards-nominees/
-
-- 📦 **Still time to submit your package for an award**
-  May 3rd deadline 
-  https://codegarden.umbraco.com/awards/package-awards/
-
-</v-click>
+- 🌍 **Umbraco HQ is now a certified B Corp**
+  Only the second CMS vendor to manage it
+  https://umbraco.com/blog/
 
 ---
 layout: section
@@ -206,41 +163,36 @@ layout: section
 
 <v-click hide>
 
-- 🚜 **DDD South West 2026** &middot; 16th May &middot; Bristol
-  SOLD OUT! Get on the waiting list for a FREE ticket!
-  https://dddsouthwest.com/
+- 💂 **London Meetup** &middot; 17th Sept &middot; SampsonMay
+  Discussion evening — tomorrow!
+  https://www.meetup.com/the-london-umbraco-meetup/events/316459256/
 
-- 💂 **London Umbraco Meetup** &middot; 14th May &middot; London
-  Umbraco & AI evening hackathon
-  https://www.meetup.com/the-london-umbraco-meetup
+- 🐲 **UmbraCymru** &middot; 24th Sept &middot; Spindogs, Cardiff
+  September talks, just over the bridge
+  https://www.meetup.com/umbracymru/events/314939244/
 
-- 🏢 **Next umBristol** &middot; 20th May
-  
-- 🐲 **UmbraCymru: The Wales Umbraco Meetup** &middot; 28th May &middot; Spindogs, Cardiff
-  UmbraCymru - Lightning Talks. Joe is giving one of the talks!
-  https://www.meetup.com/umbracymru/events/314037227/
+- 🏢 **Next umBristol** &middot; 21st Oct &middot; Runway East
+  October talks, sign up soon
 
 </v-click>
 
 <v-click at="1">
 
-- 🌐 **UMBRAAD 2026**  &middot; 21st May &middot; Virtual
-  Get your tickets now! Speakers have been selected
-  https://www.meetup.com/umbraco-virtual/events/314400053/
+- 🗽 **Umbraco U.S. Festival** &middot; 30th Sept+ &middot; Chicago, IL
+  https://umbracofestival.us/
 
-- 🌷 **Codegarden** &middot; 10th-11th June &middot; Odense, DK
-  You can still buy tickets!
-  https://codegarden.umbraco.com/
-  
-- 🎡 **Umbraco UK Conference 2026** &middot; 16th Oct &middot; London, UK
-  Super early bird tickets available!
-  https://conf.umbraco.community/
+- 🎡 **UMBUK26** &middot; 16th Oct &middot; CodeNode, London
+  £125 +VAT with code `UMBRISTOL`!
+  https://2026.umbracofoundation.co.uk/
+
+- ✈️ **Umbracokalaset 2026** &middot; 20th Oct &middot; Stockholm, SE
+  https://www.umbracokalaset.se/
 
 </v-click>
 
 ---
 layout: items
-cols: 2
+cols: 3
 ---
 
 <style scoped>
@@ -249,14 +201,15 @@ cols: 2
   }
 </style>
 
-# ![true](/images/gibe/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
+# ![Bump](/images/bump/logo.svg){style="height:1.5em;display:inline-block;margin-bottom:.5em;"}
 
-is sponsoring today's meetup venue, food and drink
+is sponsoring today's meetup venue and food
 
 ::items::
 
-<person img="/images/gibe/matt-begent.jpg" name="Matt Begent" caption="Host / Generic Developer" />
-<person img="/images/gibe/cat.jpg" name="Cat Todd" caption="Organiser / Director of Pizza Purchasing" />
+<person img="/images/bump/callum.jpg" name="Callum Whyte" caption="Chief Bumpster" />
+<person img="/images/bump/jason.jpg" name="Jason Elkin" caption="Lead Developer" />
+<person img="/images/bump/joe.jpg" name="Joe Glombek" caption="Senior Developer" />
 
 ---
 layout: items
@@ -266,23 +219,7 @@ cols: 2
 # Let's go! <lucide-rocket />
 Handing over to&hellip;
 
-# 🫵🏻
-(it's you)
-
 ::items::
 
-<!-- <person img="/images/absurd/adam-and-richard.jpg" name="Richard Jackson & Adam Prendergast" caption="Build Your Own Developer Blog with Umbraco 15 & Astro" /> 
-<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="Hosting Umbraco in Containers" /> -->
-
----
-layout: items
-cols: 2
----
-
-<style scoped>
-  .slidev-vclick-hidden {
-    display: none;
-  }
-</style>
-
-<person img="/images/mondo-media/carl-sargunar.png" name="Carl Sargunar" caption="DDoS My Desk: Load Balancing Live and Uncut!" />
+<person img="/images/bump/callum.jpg" name="Callum Whyte" caption="Headless Publishing with Umbraco Automate" />
+<person img="/images/bump/joe.jpg" name="Joe Glombek" caption="Ghosts of Umbraco Past" />
